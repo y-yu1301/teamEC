@@ -1,0 +1,74 @@
+
+td a, .recommend-box a {
+	font-size: 10px;
+	text-decoration: none;
+	color: darkgray;
+	transition: all 500ms 0s ease;
+}
+
+td a:hover, .recommend-box a:hover {
+	color: orange;
+}
+
+.product-list-table {
+	margin: 0 auto;
+}
+
+table.product-list-table td {
+	width: 33.3%;
+	height:auto;
+	text-align: center;
+	line-height: 12px;
+	padding: 5%;
+}
+
+table.product-list-table img {
+	width: 100%;
+	max-width: 300px;
+	height: 30vh;
+	object-fit: contain;
+	border: solid darkgray 1px;
+	transition: all 500ms 0s ease;
+}
+
+table.product-list-table img:hover {
+	border: solid orange 1px;
+	outline: 1px solid orange;
+}
+
+
+.column-container {
+	display:flex;
+}
+
+.left img {
+	padding-top:10%;
+	height: 30vh;
+	width: 25vw;
+	object-fit: contain;
+}
+
+.box h2 {
+	text-align: center;
+}
+
+.recommend-box img {
+	height: 100px;
+	width: 100px;
+	object-fit: contain;
+}
+
+
+.product-details-recommend-box {
+	text-align: center;
+	display: flex;
+	width: 75%;
+	margin: 0 auto;
+	justify-content: space-between;
+}
+
+.horizontal-list-table img, .cart-table img {
+	height: 50px;
+	width: 50px;
+	object-fit: contain;
+}
